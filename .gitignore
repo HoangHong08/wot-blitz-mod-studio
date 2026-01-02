@@ -1,0 +1,40 @@
+# Binary files (Sản phẩm sau khi build)
+bin/
+build/bin/
+wot-blitz-mod-studio
+wot-blitz-mod-studio.exe
+
+# Go dependencies
+vendor/
+go.sum
+
+# Frontend dependencies (Rất nặng, không nên push lên)
+frontend/node_modules/
+frontend/dist/
+.eslintcache
+
+# Wails specific
+wails.json
+.wails/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Log files
+*.log
+
+# Test data (Nếu bạn có copy file game vào để test thì không nên push lên)
+test_data/
+*.dvpl
+*.webp
+*.yaml
